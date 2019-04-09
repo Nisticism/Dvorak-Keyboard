@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Dvorak Keyboard</string>
+
+    <string name="install">1)  Go to Settings.  \n\n2)  Go to System and/or Languages and Input (or Languages and Keyboards).  \n\n3)  Go to Virtual keyboard or Keyboards and click Manage Keyboards.  \n\n
+        4)  Turn on Dvorak Keyboard and/or set it to default by going to Current Keyboard -&#62; Change Keyboard to Dvorak Keyboard or with the next step&#8230;  \n\n5)  To change keyboards on the go:  open a text field and just click the keyboard icon below the keyboard to the right of the square button, or click the keyboard notification, depending on your Android.
+          Having fun typing!  If it\'s the first time using this layout, it will take a while to get used to.</string>
+
+    <string name="whydvorak">Qwerty Keyboards were designed to prevent type writer jamming by making the most commonly used letters farther apart, as old typewriters would often become jammed when pressing adjacent keys rapidly due to the hammer like mechanisms.  \n\n  The Dvorak Keyboard, designed by August Dvorak in 1936 was designed specifically for speed.  It\'s been estimated
+    that during an average 8 hour day, a typist\'s fingers will travel 16 miles on a QWERTY keyboard and only 1.6 on a Dvorak keyboard.  Awkward strokes are avoided by having all the most commonly used letters on the home row.</string>
+</resources>

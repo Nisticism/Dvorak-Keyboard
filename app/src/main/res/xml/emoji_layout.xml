@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="15%p"
+    android:horizontalGap="2px"
+    android:verticalGap="2px"
+    android:keyHeight="52dp"
+    android:keyTextColor="@color/colorAccent"
+    android:keyBackground="@color/colorPrimaryDark"
+    >
+
+
+    <!--Row 1-->
+    <Row>
+        <Key android:codes="400" android:keyLabel="🙂" android:keyEdgeFlags="left"/>
+        <Key android:codes="401" android:keyLabel="🙃"/>
+        <Key android:codes="402" android:keyLabel="😊"/>
+        <Key android:codes="403" android:keyLabel="😄"/>
+        <Key android:codes="404" android:keyLabel="😅"/>
+        <Key android:codes="405" android:keyLabel="😝"/>
+        <Key android:codes="406" android:keyLabel="😂"/>
+        <Key android:codes="407" android:keyLabel="🤣" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <!--Row 2-->
+    <Row>
+        <Key android:codes="408" android:keyLabel="😉" android:keyEdgeFlags="left"/>
+        <Key android:codes="409" android:keyLabel="😋"/>
+        <Key android:codes="410" android:keyLabel="😇"/>
+        <Key android:codes="411" android:keyLabel="🙄"/>
+        <Key android:codes="412" android:keyLabel="😍"/>
+        <Key android:codes="413" android:keyLabel="😌"/>
+        <Key android:codes="414" android:keyLabel="😛"/>
+        <Key android:codes="415" android:keyLabel="🤔"/>
+    </Row>
+
+    <!--Row 3-->
+    <Row>
+        <Key android:codes="416" android:keyLabel="😎" android:keyEdgeFlags="left"/>
+        <Key android:codes="417" android:keyLabel="😏"/>
+        <Key android:codes="418" android:keyLabel="🤐"/>
+        <Key android:codes="419" android:keyLabel="😶"/>
+        <Key android:codes="431" android:keyLabel="🤑"/>
+        <Key android:codes="420" android:keyLabel="🙁"/>
+        <Key android:codes="421" android:keyLabel="😕"/>
+        <Key android:codes="422" android:keyLabel="😩" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="423" android:keyLabel="😦" android:keyEdgeFlags="left"/>
+        <Key android:codes="424" android:keyLabel="😮"/>
+        <Key android:codes="425" android:keyLabel="😭"/>
+        <Key android:codes="426" android:keyLabel="😢"/>
+        <Key android:codes="427" android:keyLabel="😠"/>
+        <Key android:codes="428" android:keyLabel="😤"/>
+        <Key android:codes="429" android:keyLabel="🤢"/>
+        <Key android:codes="430" android:keyLabel="😑" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <!--Row 5-->
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="-3" android:keyLabel="AB" android:keyWidth="12%p" android:isRepeatable="false" android:keyEdgeFlags="left"/>
+        <Key android:codes="-6" android:keyLabel="12!" android:keyWidth="12%p"/>
+        <Key android:codes="432" android:keyLabel="😴️" android:keyWidth="12%"/>
+        <Key android:codes="32" android:keyIcon="@drawable/ic_space_bar_black_24dp" android:keyWidth="40%p" android:isRepeatable="true" android:labelTextSize="40sp"/>
+        <Key android:codes="-5" android:keyLabel="⌫" android:keyWidth="12%p" android:isRepeatable="true"/>
+        <Key android:codes="-4" android:keyLabel="↩" android:keyWidth="12%p" android:keyEdgeFlags="right"/>
+
+    </Row>
+</Keyboard>
